@@ -159,11 +159,17 @@ section {
     opacity: .1s;
 }
 
+.btn-container {
+    display: flex; /* This makes the children display as a row */
+    gap: 20px;
+  
+}
+
 .btn-box {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 34.5rem;
+   
     height: 5rem;
 }
 
@@ -172,7 +178,7 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    width: 17rem;
     height: 100%;
     background: var(--main-color);
     border: .2rem solid var(--main-color);
